@@ -12,13 +12,14 @@
       color: #333;
     }
     .container {
-      max-width: 900px;
+      max-width: 850px;
       margin: auto;
       background: white;
       padding: 20px;
     }
     header {
       display: flex;
+      text-align: center;
       align-items: center;
       gap: 20px;
       border-bottom: 2px solid #ddd;
@@ -85,9 +86,12 @@
       border-radius: 12px;
       padding: 2rem;
     }
-    .contact a {
-      color: #1a0dab;
-      text-decoration: none;
+    #contact {
+      background-color: #c3efb7;
+      animation: zoomIn 1s ease forwards;
+      border-radius: 12px;
+      text-align: left;
+      padding: 2rem;
     }
     header nav a {
         color: #110505;
@@ -103,10 +107,10 @@
 <body>
   <div class="container">
     <header>
-      <img src="IMG_20240330_112139 - Copy.jpg" alt="Swathi Vangapandu">
       <div>
         <h1>Swathi Vangapandu</h1>
         <p> Data Analyst | passion about Data Transformation</p>
+        <img src="IMG_20240330_112139 - Copy.jpg" alt="Swathi Vangapandu">
         <nav>
             <a href="#Profile">profile</a>
             <a href="#Education">Education</a>
@@ -115,14 +119,17 @@
             <a href="#Internships">Internships</a>
             <a href="#Certifications">Certifications</a> 
             <a href="#Experience">Experience</a>
+            <a href="#contact">contact</a>
             
         </nav>
-
-        <p class="contact" id="contact">
-          Lig-100, Auto Nagar, Visakhapatnam, 530012<br>
+        <div>
+          <h2 class="contact" id="contact">Contact</h2>
+          <p style="text-align: left;">Lig-100, Auto Nagar, Visakhapatnam, 530012<br>
           +91 9390406727 | swathivangapandu21@gmail.com<br>
-          <a href="https://www.linkedin.com/in/swathi-vangapandu-789359289">LinkedIn</a>
+          <a style="color: #1a0dab" href="https://www.linkedin.com/in/swathi-vangapandu-789359289">LinkedIn</a>
         </p>
+
+        </div> 
       </div>
     </header>
 
